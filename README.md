@@ -4,13 +4,8 @@ Inżynierka
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After cloning the application follow these steps:
+1. clone .env.exaple file into .env file and add GOOGLE_MAPS_API_KEY variable into it, without any parenthesis
+2. if not exists, then create local.properties file in "android" folder and add GOOGLE_MAPS_API_KEY variable without any parenthesis
+3. if not exists, then create Generated.xcconfig file in "ios/Flutter" folder and add GOOGLE_MAPS_API_KEY variable without any parenthesis
+4. in root folder in terminal run: `flutter pub run build_runner build --delete-conflicting-outputs`
